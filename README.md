@@ -31,5 +31,5 @@ It is important to avoid wasting GPU time in Workspace projects that have GPU ac
 * Handling "Out of Memory" errors
 This issue isn't specific to Workspaces, but rather it is an apparent issue between PyTorch & Jupyter, where Jupyter reports "out of memory" after a cell crashes. Jupyter holds references to active objects as long as the kernel is running—including objects created before an error is raised. This can cause Jupyter to persist large objects in memory long after they are no longer required. The only known solutions are:
 
-  -To reduce the batch_size of your data
-  -Reset the kernel and run the notebook cells again
+  *To reduce the batch_size of your data
+  *Reset the kernel and run the notebook cells again
