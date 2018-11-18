@@ -3,13 +3,15 @@ This project implemented _RNN_ and _embedding_ to generates tv scripts based on 
 ## Introduction
 In this project, you'll generate your own Seinfeld TV scripts using RNNs. You'll be using a Seinfeld dataset of scripts from 9 seasons. The Neural Network you'll build will generate a new, "fake" TV script.
 ## Topics:
-in this project, we cover several areas:
+In this project, we cover several areas:
 * Machine learning
 * Natural language processing
 * RNN (LSTM, GRU)
 * Word embedding
 * Pytorch
-The project can be extended to include the word2vec embedding (Skip Grams model, negative sampling): 
+
+ The project can be extended to include the word2vec embedding (Skip Grams model, negative sampling): 
+ 
 * Use validation data to choose the best model
 * Initialize your model weights, especially the weights of the embedded layer to encourage model convergence
 * Use topk sampling to generate new words
