@@ -1,7 +1,10 @@
+[image1]: ./script.jpg "Sample Output"
 # Project-tv-script-generation-RNN
 This project implemented _RNN_ and _embedding_ to generates tv scripts based on the famous "Seinfeld" script from 9 seasons
 ## Introduction
 In this project, you'll generate your own Seinfeld TV scripts using RNNs. You'll be using a Seinfeld dataset of scripts from 9 seasons. The Neural Network you'll build will generate a new, "fake" TV script.
+![Sample Output][image1]
+
 ## Topics:
 In this project, we cover several areas:
 * Machine learning
